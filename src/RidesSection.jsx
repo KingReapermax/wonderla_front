@@ -24,9 +24,9 @@ const RidesSection = () => {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-rgb(51,77,207)-100 py-12 px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8">Experience Thrilling Rides</h2>
+        <h2 className="text-3xl font-bold text-white-800 mb-8">Experience Thrilling Rides</h2>
         
         <div className="flex gap-8">
           <CategorySidebar 
@@ -37,7 +37,7 @@ const RidesSection = () => {
           <div className="flex-1">
             <div 
               ref={carouselRef}
-              className="flex overflow-x-auto scroll-smooth space-x-4 py-4 px-2"
+              className="flex overflow-x-hidden scroll-smooth space-x-4 py-4 px-2"
               style={{ scrollbarWidth: 'none' }} // Hide scrollbar for Firefox
             >
               {filteredRides.map((ride) => (

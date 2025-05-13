@@ -1,42 +1,193 @@
-    [
+[
   {
     "id": 1,
-    "title": "Recoil",
-    "location": "Amusement Park",
-    "description": "India's first reverse looping roller coaster that gives you the ultimate adrenaline rush!",
-    "image": "https://www.wonderla.com/uploads/rides/recoil.jpg",
-    "category": "land"
+    "title": "HyperVerse",
+    "location": "Hyderabad",
+    "description": "360° rotating capsule with VR experience simulating interstellar travel",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Hyperverse_480p_c539001b46.mp4",
+    "category": "land",
+    "heightRequirement": 140,
+    "intensity": "high"
   },
   {
     "id": 2,
-    "title": "Insanity",
-    "location": "Amusement Park",
-    "description": "A giant pendulum ride that swings you 360 degrees at a height of 65 feet!",
-    "image": "https://www.wonderla.com/uploads/rides/insanity.jpg",
-    "category": "land"
+    "title": "Recoil",
+    "location": "Bangalore",
+    "description": "India's first reverse looping roller coaster with 5 inversions",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Recoil_480p_a239001c47.mp4",
+    "category": "land",
+    "heightRequirement": 132,
+    "intensity": "extreme"
   },
   {
     "id": 3,
-    "title": "Hurricane",
-    "location": "Water Park",
-    "description": "A thrilling funnel-shaped water slide that gives you a whirlpool experience!",
-    "image": "https://www.wonderla.com/uploads/rides/hurricane.jpg",
-    "category": "water"
+    "title": "Maverick",
+    "location": "Kochi",
+    "description": "High-speed pendulum swinging at 75 km/h with 90° arcs",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Maverick_480p_b739001d48.mp4",
+    "category": "land",
+    "heightRequirement": 137,
+    "intensity": "high"
   },
   {
     "id": 4,
-    "title": "Uphill Racers",
-    "location": "Amusement Park",
-    "description": "Race your friends uphill on these exciting water slides!",
-    "image": "https://www.wonderla.com/uploads/rides/uphill-racers.jpg",
-    "category": "water"
+    "title": "Insanity",
+    "location": "Hyderabad",
+    "description": "Rotating arm with spinning gondolas for maximum G-forces",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Insanity_480p_e939001f50.mp4",
+    "category": "land",
+    "heightRequirement": 145,
+    "intensity": "extreme"
   },
   {
     "id": 5,
-    "title": "Toy Train",
-    "location": "Kids Park",
-    "description": "A fun train ride for kids that takes them around the park!",
-    "image": "https://www.wonderla.com/uploads/rides/toy-train.jpg",
-    "category": "kids"
+    "title": "Y-Sixties",
+    "location": "Bangalore",
+    "description": "Classic pirate ship reaching 75° angles with ocean views",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/YSxties_480p_h339002253.mp4",
+    "category": "land",
+    "heightRequirement": 120,
+    "intensity": "medium"
+  },
+  {
+    "id": 6,
+    "title": "Twister",
+    "location": "Kochi",
+    "description": "Spinning roller coaster with corkscrew turns and sudden drops",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Twister_480p_i439002354.mp4",
+    "category": "land",
+    "heightRequirement": 130,
+    "intensity": "high"
+  },
+
+  {
+    "id": 7,
+    "title": "Termite Coaster",
+    "location": "Hyderabad",
+    "description": "Gentle coaster through giant termite mounds with interactive elements",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/TermiteCoaster_480p_f139002051.mp4",
+    "category": "kids",
+    "heightRequirement": 90,
+    "intensity": "low"
+  },
+  {
+    "id": 8,
+    "title": "Balloon Race",
+    "location": "Bangalore",
+    "description": "Colorful balloon-themed carousel with height-adjustable seats",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/BalloonRace_480p_j539002455.mp4",
+    "category": "kids",
+    "heightRequirement": 85,
+    "intensity": "very low"
+  },
+  {
+    "id": 9,
+    "title": "Dino Valley",
+    "location": "Kochi",
+    "description": "Interactive dark ride through prehistoric dinosaur habitats",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/DinoValley_480p_k639002556.mp4",
+    "category": "kids",
+    "heightRequirement": 95,
+    "intensity": "low"
+  },
+  {
+    "id": 10,
+    "title": "Crazy Bus",
+    "location": "Hyderabad",
+    "description": "Bouncy bus ride with fun music and flashing lights",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/CrazyBus_480p_l739002657.mp4",
+    "category": "kids",
+    "heightRequirement": 80,
+    "intensity": "very low"
+  },
+  {
+    "id": 11,
+    "title": "Mini Ferris",
+    "location": "Bangalore",
+    "description": "Child-sized Ferris wheel with animal-themed gondolas",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/MiniFerris_480p_m839002758.mp4",
+    "category": "kids",
+    "heightRequirement": 85,
+    "intensity": "very low"
+  },
+  {
+    "id": 12,
+    "title": "Butterfly Garden",
+    "location": "Kochi",
+    "description": "Gentle spinning ride with butterfly-shaped seats and mist effects",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Butterfly_480p_n939002859.mp4",
+    "category": "kids",
+    "heightRequirement": 92,
+    "intensity": "very low"
+  },
+  {
+    "id": 13,
+    "title": "Wonder Splash",
+    "location": "Hyderabad",
+    "description": "60-foot drop water slide with guaranteed complete soaking",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/WonderSplash_480p_d839001e49.mp4",
+    "category": "water",
+    "heightRequirement": 122,
+    "intensity": "high"
+  },
+  {
+    "id": 14,
+    "title": "Tidal Wave",
+    "location": "Bangalore",
+    "description": "Giant wave pool generating 6-foot waves every 5 minutes",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/TidalWave_480p_o039002960.mp4",
+    "category": "water",
+    "heightRequirement": 110,
+    "intensity": "medium"
+  },
+  {
+    "id": 15,
+    "title": "Amazonia",
+    "location": "Kochi",
+    "description": "Lazy river with sudden waterfalls and interactive water guns",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Amazonia_480p_p139003061.mp4",
+    "category": "water",
+    "heightRequirement": 100,
+    "intensity": "low"
+  },
+  {
+    "id": 16,
+    "title": "Typhoon Tunnel",
+    "location": "Hyderabad",
+    "description": "Enclosed water slide with LED light effects and vortex funnel",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Typhoon_480p_q239003162.mp4",
+    "category": "water",
+    "heightRequirement": 130,
+    "intensity": "high"
+  },
+  {
+    "id": 17,
+    "title": "Splash Dash",
+    "location": "Bangalore",
+    "description": "Racing water slides with timers and splashdown lanes",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/SplashDash_480p_r339003263.mp4",
+    "category": "water",
+    "heightRequirement": 115,
+    "intensity": "medium"
+  },
+  {
+    "id": 18,
+    "title": "Lazy Lagoon",
+    "location": "Kochi",
+    "description": "Slow-moving river with floating tubes and shaded areas",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/LazyLagoon_480p_s439003364.mp4",
+    "category": "water",
+    "heightRequirement": 90,
+    "intensity": "very low"
+  },
+  {
+    "id": 19,
+    "title": "Monsoon Palace",
+    "location": "Hyderabad",
+    "description": "Multi-level water fortress with 100+ interactive elements",
+    "video": "https://d22pimhl2qmbj7.cloudfront.net/public/Monsoon_480p_t539003465.mp4",
+    "category": "water",
+    "heightRequirement": 100,
+    "intensity": "medium"
   }
 ]
