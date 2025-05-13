@@ -1,0 +1,42 @@
+    [
+  {
+    "id": 1,
+    "title": "Recoil",
+    "location": "Amusement Park",
+    "description": "India's first reverse looping roller coaster that gives you the ultimate adrenaline rush!",
+    "image": "https://www.wonderla.com/uploads/rides/recoil.jpg",
+    "category": "land"
+  },
+  {
+    "id": 2,
+    "title": "Insanity",
+    "location": "Amusement Park",
+    "description": "A giant pendulum ride that swings you 360 degrees at a height of 65 feet!",
+    "image": "https://www.wonderla.com/uploads/rides/insanity.jpg",
+    "category": "land"
+  },
+  {
+    "id": 3,
+    "title": "Hurricane",
+    "location": "Water Park",
+    "description": "A thrilling funnel-shaped water slide that gives you a whirlpool experience!",
+    "image": "https://www.wonderla.com/uploads/rides/hurricane.jpg",
+    "category": "water"
+  },
+  {
+    "id": 4,
+    "title": "Uphill Racers",
+    "location": "Amusement Park",
+    "description": "Race your friends uphill on these exciting water slides!",
+    "image": "https://www.wonderla.com/uploads/rides/uphill-racers.jpg",
+    "category": "water"
+  },
+  {
+    "id": 5,
+    "title": "Toy Train",
+    "location": "Kids Park",
+    "description": "A fun train ride for kids that takes them around the park!",
+    "image": "https://www.wonderla.com/uploads/rides/toy-train.jpg",
+    "category": "kids"
+  }
+]
