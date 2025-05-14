@@ -1,24 +1,20 @@
-import React from 'react';
+import React from "react";
 
-const CarouselControls = ({ onPrev, onNext }) => {
-  return (
-    <div className="flex justify-center mt-6 space-x-4">
-      <button
-        onClick={onPrev}
-        className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors"
-        aria-label="Previous"
-      >
-        &lt;
-      </button>
-      <button
-        onClick={onNext}
-        className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors"
-        aria-label="Next"
-      >
-        &gt;
-      </button>
-    </div>
-  );
-};
+const CarouselControls = ({ onPrev, onNext, disablePrev, disableNext }) => (
+  <div className="flex gap-4">
+    <button
+      className={`p-3 rounded-full bg-yellow-400 bg-opacity-100 hover:scale-115 hover:text-[#1a237e] text-white text-2xl transition shadow-lg ${disablePrev ? "opacity-40 cursor-not-allowed" : ""}`}
+      onClick={onPrev}
+      disabled={disablePrev}
+      aria-label="Previous"
+    >&#8592;</button>
+    <button
+      className={`p-3 rounded-full bg-yellow-400 bg-opacity-100 hover:scale-115 hover:text-[#1a237e] text-white text-2xl transition shadow-lg ${disableNext ? "opacity-40 cursor-not-allowed" : ""}`}
+      onClick={onNext}
+      disabled={disableNext}
+      aria-label="Next"
+    >&#8594;</button>
+  </div>
+);
 
 export default CarouselControls;

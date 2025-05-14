@@ -1,33 +1,28 @@
-import React from 'react';
+import React from "react";
 
-const CategorySidebar = ({ activeCategory, setActiveCategory }) => {
-  const categories = [
-    { id: 'land', name: 'Land Rides' },
-    { id: 'water', name: 'Water Rides' },
-    { id: 'kids', name: 'Kids Rides' }
-  ];
+const categories = [
+  { key: "land", label: "Land" },
+  { key: "water", label: "Water" },
+  { key: "kids", label: "Kids" },
+];
 
-  return (
-    <div className="w-48 bg-white rounded-lg shadow-md p-4">
-      <h3 className="text-lg font-bold text-gray-800 mb-4">Categories</h3>
-      <ul>
-        {categories.map((category) => (
-          <li key={category.id} className="mb-2">
-            <button
-              onClick={() => setActiveCategory(category.id)}
-              className={`w-full text-left px-3 py-2 rounded-md transition-colors ${
-                activeCategory === category.id
-                  ? 'bg-blue-600 text-white'
-                  : 'hover:bg-gray-100 text-gray-700'
-              }`}
-            >
-              {category.name}
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+const CategorySidebar = ({ selectedCategory, onSelectCategory }) => (
+  <aside className="flex flex-col gap-6 mr-10">
+    {categories.map((cat) => (
+      <button
+        key={cat.key}
+        className={`px-8 py-3 rounded-full text-lg font-bold transition
+          ${selectedCategory === cat.key
+            ? "bg-yellow-400 text-[#1a237e] shadow-lg"
+            : "bg-white bg-opacity-10 text-white hover:bg-yellow-400 hover:text-[#1a237e]"}
+        `}
+        onClick={() => onSelectCategory(cat.key)}
+      >
+        {cat.label}
+      </button>
+    ))}
+  </aside>
+);
+
 
 export default CategorySidebar;
