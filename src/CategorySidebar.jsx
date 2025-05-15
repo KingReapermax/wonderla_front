@@ -7,14 +7,14 @@ const categories = [
 ];
 
 const CategorySidebar = ({ selectedCategory, onSelectCategory }) => (
-  <aside className="flex flex-col gap-6 mr-10">
+  <aside className="flex flex-col gap-6 ml-20 z-30 bg-[#22304a]">
     {categories.map((cat) => (
       <button
         key={cat.key}
         className={`px-8 py-3 rounded-full text-lg font-bold transition
           ${selectedCategory === cat.key
-            ? "bg-yellow-400 text-[#1a237e] shadow-lg"
-            : "bg-white bg-opacity-10 text-white hover:bg-yellow-400 hover:text-[#1a237e]"}
+            ? "bg-yellow-400 text-[#22304a] shadow-lg"
+            : "bg-white text-[#22304a] hover:bg-yellow-400 hover:text-[#22304a]"}
         `}
         onClick={() => onSelectCategory(cat.key)}
       >

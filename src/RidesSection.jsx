@@ -5,7 +5,7 @@ import CategorySidebar from "./CategorySidebar";
 import CarouselControls from "./CarouselControls";
 import Titlebar from "./Titlebar";
 
-const CARD_WIDTH = 310 + 32; // Card width + horizontal margin (e.g., w-[310px] mx-4)
+const CARD_WIDTH = 240 + 16; // Card width + horizontal margin (e.g., w-[310px] mx-4)
 const CARD_PADDING = 32; // 16px left + 16px right (mx-4)
 
 const RidesSection = () => {
@@ -49,13 +49,18 @@ const RidesSection = () => {
   const translateX = -(carouselIndex * CARD_WIDTH);
 
   return (
-    <section className="w-screen h-screen bg-[#1a237e] flex flex-col overflow-hidden">
+    <section className="w-screen h-screen bg-[#22304a] flex flex-col overflow-hidden">
       <Titlebar />
-       <div className="flex flex-1 items-center justify-center">
+      <div className="flex flex-1 items-center justify-center">
+        <div className="bg-[#22304a] z-30 flex flex-row items-center justify-center">
         <CategorySidebar
           selectedCategory={selectedCategory}
           onSelectCategory={setSelectedCategory}
         />
+        <div className="flex-1 w-auto min-w-[280px] max-w-[310px] h-[480px]">
+
+        </div>
+        </div>
         <div className="flex-1 flex flex-col items-center">
           {/* Heading and Controls */}
           <div className="flex items-center justify-between w-full max-w-7xl mb-8 px-8">
@@ -72,7 +77,7 @@ const RidesSection = () => {
           {/* Carousel */}
           <div
             ref={carouselContainerRef}
-            className="relative w-full max-w-7xl overflow-hidden"
+            className="relative w-full max-w-7xl "
           >
             <div
               className="flex transition-transform duration-500 ease-in-out"
@@ -85,7 +90,7 @@ const RidesSection = () => {
                 <div
                   key={ride.id}
                   className="mx-4 flex-shrink-0"
-                  style={{ width: 310 }}
+                  style={{ width: 240 }}
                 >
                   <RideCard ride={ride} />
                 </div>
@@ -93,11 +98,12 @@ const RidesSection = () => {
             </div>
           </div>
           {/* Explore Button */}
-          <button className="mt-10 bg-yellow-400 hover:bg-yellow-300 text-[#1a237e] font-bold text-xl px-10 py-4 rounded-2xl uppercase shadow-lg transition">
+          <button className="mt-10 bg-yellow-400 hover:bg-yellow-300 text-[#22304a] px-12 py-4 rounded-full font-bold text-xl uppercase shadow-lg transition">
             Explore All Rides!
-          </button>
+          </button> 
         </div>
       </div>
+      
     </section>
   );
 };
